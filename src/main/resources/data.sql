@@ -1,0 +1,32 @@
+--
+--insert into business (id, cnpj, cpf, email, name, password, phone) values
+--(null,'13245642152',null,'test@email','Bar do Bardo','123456','12345678'),
+--(null,null,'1234165160','espeto@email','Vila do Espeto','654321','87654321');
+--
+-- insert into user (id, birth_date, cpf, full_name, phone) values
+-- (null,'2001-05-10','41526558914','Cleyson Macedo','9865988741'),
+-- (null,'1995-12-25','41526555487','Berenice Carlita','9865980000'),
+-- (null,'1990-11-15','41526550000','Kedemello Cabral','9584784153');
+--
+--insert into user_has_business (id, score, fk_business, fk_user) values
+--(null,0,1,1),
+--(null,100,1,2),
+--(null,100,1,3),
+--(null,1000,2,3);
+--
+--insert into parameters
+--
+--
+--insert into business(cnpj, email, name, password, phone)
+--    values ('111111111111', 'coolpon@gmail.com', 'Coolpon', 'coolpon', '111111111');
+--
+--insert into promotion(active, description,fk_business)
+--    values (true, 'sei la mano', 1);
+--
+--insert into user(cpf, full_name, phone)
+--    values('11111111111', 'cesar', '111111111');
+--
+--insert into promotion_has_user(promotion_id, user_id)
+--    values(1,1);
+
+select 2 + 2;
